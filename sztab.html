@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+	<title>Official clan - !!!Poland!!!</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<meta name="keywords" content="#" />
+
+	<script
+		type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+
+	<!-- bootstrap-css -->
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+
+	<!-- css -->
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+
+	<!-- font-awesome icons -->
+	<link href="css/font-awesome.css" rel="stylesheet">
+
+	<!-- portfolio -->
+	<link rel="stylesheet" href="css/chocolat.css" type="text/css" media="all">
+
+	<!-- font -->
+	<link href="//fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i"
+		rel="stylesheet">
+	<link href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,700italic,700,400italic,300italic,300'
+		rel='stylesheet' type='text/css'>
+
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script type="text/javascript">
+		jQuery(document).ready(function ($) {
+			$(".scroll").click(function (event) {
+				event.preventDefault();
+				$('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1000);
+			});
+		});
+	</script>
+
+	<!-- Icon -->
+	<link rel="shortcut icon" href="images/icon.png" />
+</head>
+
+<body>
+	<!-- banner -->
+	<div class="banner">
+		<div class="info-dot">
+			<div class="logo">
+				<h1><a href="index.html">!!!Poland!!!</a></h1>
+			</div>
+			<div class="header-top">
+				<div class="container">
+					<div class="header-top-info">
+						<nav class="navbar navbar-default">
+							<div class="navbar-header">
+								<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+									data-target="#bs-example-navbar-collapse-1">
+									<span class="sr-only">Toggle navigation</span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
+							</div>
+
+							<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
+								<nav>
+									<ul class="nav navbar-nav">
+										<li><a href="index.html">Strona główna</a></li>
+										<li class="active"><a href="sztab.html" class="scroll">Sztab</a></li>
+										<!-- <li><a href="news.html">Aktualności</a></li> -->
+									</ul>
+								</nav>
+							</div>
+							<!-- /.navbar-collapse -->
+						</nav>
+					</div>
+				</div>
+			</div>
+			<div class="w3layouts-banner-info">
+				<div class="container">
+					<div class="w3layouts-banner-slider">
+						<div class="w3layouts-banner-top-slider">
+							<div class="slider">
+								<div class="callbacks_container">
+									<ul class="rslides callbacks callbacks1" id="slider4">
+										<li>
+											<div class="banner_text">
+												<h3>Top 1</h3>
+												<div class="w3-button">
+													<a href="#" data-toggle="modal" data-target="#myModal1">Czytaj
+														więcej</a>
+												</div>
+											</div>
+										</li>
+										<li>
+											<div class="banner_text">
+												<h3>Turnieje</h3>
+												<div class="w3-button">
+													<a href="#" data-toggle="modal" data-target="#myModal2">Czytaj
+														więcej</a>
+												</div>
+											</div>
+										</li>
+										<li>
+											<div class="banner_text">
+												<h3>Historia</h3>
+												<div class="w3-button">
+													<a href="#" data-toggle="modal" data-target="#myModal3">Czytaj
+														więcej</a>
+												</div>
+											</div>
+										</li>
+									</ul>
+								</div>
+								<div class="clearfix"> </div>
+								<script src="js/responsiveslides.min.js"></script>
+								<script>
+									$(function () {
+										$("#slider4").responsiveSlides({
+											auto: true,
+											pager: true,
+											nav: true,
+											speed: 500,
+											namespace: "callbacks",
+											before: function () {
+												$('.events').append("<li>before event fired.</li>");
+											},
+											after: function () {
+												$('.events').append("<li>after event fired.</li>");
+											}
+										});
+
+									});
+								</script>
+								<!--banner Slider starts Here-->
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- modal -->
+	<div class="modal about-modal fade" id="myModal1" tabindex="-1" role="dialog">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+							aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title"><span>Klan</span> !!!Poland!!!</h4>
+				</div>
+				<div class="modal-body">
+					<div class="agileits-w3layouts-info">
+						<img src="images/modal1.jpg" alt="" />
+						<p>!!!Poland!!! od połowy 2022 roku utrzymuje się nieprzerwanie na pierwszym miejscu w rankingu
+							najlepszych klanów w Polsce. Naszym sekretem wspięcia się na podium była współpraca,
+							zaangażowanie, doświadczona kadra oraz samosatysfakcja. Należy również pamiętać, że dobry
+							klan nie tworzą tylko Liderzy, czy też Co-liderzy, ale wszyscy członkowie.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- modal -->
+	<div class="modal about-modal fade" id="myModal2" tabindex="-1" role="dialog">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+							aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title"><span>Klan</span> !!!Poland!!!</h4>
+				</div>
+				<div class="modal-body">
+					<div class="agileits-w3layouts-info">
+						<img src="images/modal1.jpg" alt="" />
+						<p>Turnieje w naszym klanie odbywają się w każdy piętnasty dzień miesiąca. Jednak, aby wziąć
+							udział w rozgrywce każdy uczestnik musi:<br>
+							- być członkiem !!!Poland!!! lub !!!Poland!!! 2<br>
+							- spędzić minium jeden sezon w naszych progach.<br>
+							Wyróżnienie utrzymuje trzech pierwszych zawodników, a system nagród wygląda następująco:<br>
+							1 - 70zł<br>
+							2 - 50zł<br>
+							3 - 40zł<br>
+							<br>
+							Wstąpcie w nasze progi i grajcie razem z nami!
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- modal -->
+	<div class="modal about-modal fade" id="myModal3" tabindex="-1" role="dialog">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+							aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title"><span>Klan</span> !!!Poland!!!</h4>
+				</div>
+				<div class="modal-body">
+					<div class="agileits-w3layouts-info">
+						<img src="images/2.png" alt="" />
+						<p>Historia klanu !!!Poland!!!
+							<br>
+							Wszystko zaczęło się w 2017, gdzie założycielem był Maks S. (jeszcze wtedy maksymalnym
+							poziomem kart był 9lvl).<br>
+							!!!Poland!!! Stanowił czoła najlepszym klanom w całym Clash Royale, lecz lider nie mógł
+							poświęcić tyle czasu na rozwój i zrezygnował z tej funkcji. Pablo Escobar przejął
+							dowodzenie, gracz nie tylko o wielkiej ambicji, lecz o marzeniach. <br>
+							Klan rozwijał się bardzo dobrze, a już w 2018 roku powstały kolejne akademie - 2, 3, 4, 5.
+							Pablo Escobar nie tylko sprawdził się jako lider, ale został uszanowany i zdobył respekt
+							wszystkich członków klanów !!!Poland!!! (w tym akademie).<br>
+							Jednak należy pamiętać, że klan buduje nie tylko lider, ale też co-liderzy, którym byli od
+							samego początku:<br>
+							- Gregonery <br>
+							- Konrad<br>
+							- Lighting<br>
+							- Gramwgre<br>
+							- ZET<br>
+							- Mikolo<br>
+							- MaTiX<br>
+							- Adamox<br>
+							- HaSeK<br>
+							- Bujan<br>
+							Przez ponad 5 lat skład się nieco zmienił - w między czasie część zrezygnowała z owej
+							funkcji, a kolejni gracze wskoczyli na ich miejsce. Zlikwidowaliśmy też nasze akademie
+							(oprócz !!!Poland!!! 2).<br>
+							<br>
+							|Nie tylko zostaliśmy przyjaciółmi, lecz rodziną. Należy pamiętać, że gry łączą a nie
+							dzielą|<br>
+							<br>
+							"Ja zawsze dążyłem do celu, by klan był jedną rodziną z miłą atmosferą.<br>
+							Dziś z szacunkiem mogę powiedzieć, że 6 lat spędzone w grze to moja mała ciegiełka do tego
+							domku."<br>
+							~ Pablo Escobar<br>
+							<br>
+							!!!Poland!!! Obecnie znajduje się na pierwszym miejscu w Polsce oraz TOP 50 na całym
+							świecie.<br>
+							I to jeszcze nie koniec...<br>
+							My dopiero ruszamy do boju!<br>
+							Ku chwale!
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- portfolio -->
+	<div class="portfolio" id="gallery">
+		<div class="container">
+			<div class="title">
+				<h3>Sztab !!!Poland!!!</h3>
+			</div>
+			<ul class="simplefilter w3layouts agileits">
+				<li class="active w3layouts agileits" data-filter="all">Cały sztab</li>
+				<li class="w3layouts agileits" data-filter="1">Lider !!!Poland!!!</li>
+				<li class="w3layouts agileits" data-filter="2">Lider !!!Poland!!! 2</li>
+				<li class="w3layouts agileits" data-filter="3">Co-Liderzy</li>
+				<li class="w3layouts agileits" data-filter="4">Wyróżnieni gracze</li>
+			</ul>
+
+			<div class="filtr-container w3layouts agileits">
+
+				<div class="filtr-item w3layouts agileits portfolio-t" data-category="1" data-sort="Busy streets">
+					<figure>
+						<img src="images/pablo.jpg" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+						<figcaption>
+							<h3>Pablo Escobar</h3>
+						</figcaption>
+					</figure>
+				</div>
+
+				<div class="filtr-item w3layouts agileits" data-category="3" data-sort="Luminous night">
+					<figure>
+						<img src="images/hasek.jpg" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+						<figcaption>
+							<h3>HaSeK</h3>
+						</figcaption>
+					</figure>
+				</div>
+
+				<div class="filtr-item w3layouts agileits" data-category="3" data-sort="City wonders">
+					<figure>
+						<img src="images/1.jpg" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+						<figcaption>
+							<h3>BOYKA</h3>
+						</figcaption>
+					</figure>
+				</div>
+
+				<div class="filtr-item w3layouts agileits" data-category="3" data-sort="In production">
+					<figure>
+						<img src="images/1.jpg" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+						<figcaption>
+							<h3>MaTiX</h3>
+						</figcaption>
+					</figure>
+				</div>
+
+				<div class="filtr-item w3layouts agileits" data-category="2" data-sort="Industrial site">
+					<figure>
+						<img src="images/1.jpg" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+						<figcaption>
+							<h3>Bujan</h3>
+						</figcaption>
+					</figure>
+				</div>
+
+				<div class="filtr-item w3layouts agileits" data-category="3" data-sort="Peaceful lake">
+					<figure>
+						<img src="images/1.jpg" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+						<figcaption>
+							<h3>Call_Me_Konrad</h3>
+						</figcaption>
+					</figure>
+				</div>
+
+				<div class="filtr-item w3layouts agileits" data-category="3" data-sort="City lights">
+					<figure>
+						<img src="images/1.jpg" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+						<figcaption>
+							<h3>Martin</h3>
+						</figcaption>
+					</figure>
+				</div>
+
+				<div class="filtr-item w3layouts agileits" data-category="3" data-sort="Dreamhouse">
+					<figure>
+						<img src="images/1.jpg" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+						<figcaption>
+							<h3>Gremek</h3>
+						</figcaption>
+					</figure>
+				</div>
+
+				<div class="filtr-item w3layouts agileits" data-category="3" data-sort="Dreamhouse">
+					<figure>
+						<img src="images/1.jpg" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+						<figcaption>
+							<h3>Qlis™</h3>
+						</figcaption>
+					</figure>
+				</div>
+
+				<div class="filtr-item w3layouts agileits" data-category="3" data-sort="Dreamhouse">
+					<figure>
+						<img src="images/1.jpg" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+						<figcaption>
+							<h3>Matiu</h3>
+						</figcaption>
+					</figure>
+				</div>
+
+				<div class="filtr-item w3layouts agileits" data-category="3" data-sort="Dreamhouse">
+					<figure>
+						<img src="images/1.jpg" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+						<figcaption>
+							<h3>szczypiorek</h3>
+						</figcaption>
+					</figure>
+				</div>
+
+				<div class="filtr-item w3layouts agileits" data-category="3" data-sort="Dreamhouse">
+					<figure>
+						<img src="images/1.jpg" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+						<figcaption>
+							<h3>BMG</h3>
+						</figcaption>
+					</figure>
+				</div>
+
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+
+	<!-- copyright -->
+	<div class="copyright">
+		<div class="container">
+			<p class="footer-class">!!!Poland!!! © All Rights Reserved | Created by <a href="#" target="_blank">Michał
+					Has</a> </p>
+		</div>
+	</div>
+
+	<script src="js/responsiveslides.min.js"></script>
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+
+	<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function () {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+
+			$().UItoTop({ easingType: 'easeOutQuart' });
+
+		});
+	</script>
+
+	<!-- Tabs-JavaScript -->
+	<script src="js/jquery.filterizr.js"></script>
+	<script src="js/controls.js"></script>
+	<script type="text/javascript">
+		$(function () {
+			$('.filtr-container').filterizr();
+		});
+	</script>
+
+	<!-- PopUp-Box-JavaScript -->
+	<script src="js/jquery.chocolat.js"></script>
+	<script type="text/javascript">
+		$(function () {
+			$('.filtr-item a').Chocolat();
+		});
+	</script>
+</body>
+
+</html>
